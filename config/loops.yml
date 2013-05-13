@@ -1,0 +1,15 @@
+global:
+  logger: stdout
+  poll_period: 5
+  workers_engine: fork
+
+loops:
+  gang_worker:
+    type: queue
+    host: 127.0.0.1
+    port: 61613
+    queue_name: dope
+    loop_name: gang_worker
+    workers_number: 5
+    logger: log/loops/gang_worker.log
+    log_dir: log/    

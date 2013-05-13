@@ -1,0 +1,19 @@
+GIT
+  remote: git://github.com/gen0cide-/loops.git
+  revision: e68c98946d011f9042d2129b37c2733f67973137
+  specs:
+    loops (2.0.9)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    settingslogic (2.0.9)
+    stomp (1.2.9)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  loops!
+  settingslogic
+  stomp
